@@ -14,10 +14,10 @@ build/
 
 # ──────────────────────────────────────────────
 # Generated data — too large for GitHub
-# (regenerate with: python data_processing/generate_narratives.py)
 # ──────────────────────────────────────────────
 entropy_narratives.txt
 extracted_graph_nodes.jsonl
+*.csv
 
 # ──────────────────────────────────────────────
 # Graph tensors — binary / LMDB files
@@ -25,18 +25,22 @@ extracted_graph_nodes.jsonl
 # Regenerate with the full pipeline (see HOW_TO_RUN.md).
 # Exception: graph_meta.json is tiny and useful to keep.
 # ──────────────────────────────────────────────
-graph_tensors/edge_src.bin
-graph_tensors/edge_dst.bin
-graph_tensors/node_features.bin
-graph_tensors/link_labels.pt
-graph_tensors/node_embeddings.index
-graph_tensors/node_mapping.lmdb/
-graph_tensors/reverse_mapping.lmdb/
+**/graph_tensors/edge_src.bin
+**/graph_tensors/edge_dst.bin
+**/graph_tensors/node_features.bin
+**/graph_tensors/link_labels.pt
+**/graph_tensors/node_embeddings.index
+**/graph_tensors/node_mapping.lmdb/
+**/graph_tensors/reverse_mapping.lmdb/
 # Keep graph_meta.json — it's just 50 bytes and documents the graph shape
-!graph_tensors/graph_meta.json
+!**/graph_tensors/graph_meta.json
 
 # Trained model checkpoint — large binary, train on your own machine
-graph_tensors/link_predictor.pt
+**/graph_tensors/link_predictor.pt
+
+# Binary caches — generated automatically on first boot
+**/graph_tensors/fir_data_cache.pkl
+**/graph_tensors/mapping_cache.pkl
 
 # ──────────────────────────────────────────────
 # Logs produced during runs
@@ -85,3 +89,12 @@ conda-env/
 # Code-review graph DB (auto-generated)
 # ──────────────────────────────────────────────
 .code-review-graph/
+
+# ──────────────────────────────────────────────
+# Backend (Node.js)
+# ──────────────────────────────────────────────
+node_modules/
+Backend/node_modules/
+Backend/dist/
+Backend/logs/
+Backend/.env

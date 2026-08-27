@@ -1,0 +1,1263 @@
+{
+  "total_syndicates": 25,
+  "total_injected_records": 81,
+  "syndicates": [
+    {
+      "syndicate_name": "THE_SHADOW_CORRIDOR_DACOITY_CARTEL",
+      "description": "Cross-district armed highway dacoity syndicate along NH-44 corridor using titanium gas cutters",
+      "crime_group": "DACOITY",
+      "crime_head": "PREPARATION AND ASSEMBLY FOR DACOITY",
+      "signature": "[Serial: W_TITANIUM_CUTTER_99] White SUV getaway vehicle without plates",
+      "total_cases": 5,
+      "case_ids": [
+        "FIR-8800001",
+        "FIR-8800002",
+        "FIR-8800003",
+        "FIR-8800004",
+        "FIR-8800005"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800001",
+          "district": "Bengaluru City",
+          "unit": "Hebbal PS",
+          "beat": "RURAL BEAT NO 4",
+          "leader": "Vikram_Malhotra",
+          "partner": "Ravi_Kashyap",
+          "accused_count": 4,
+          "arrested_count": 2
+        },
+        {
+          "fir_id": "FIR-8800002",
+          "district": "Tumakuru",
+          "unit": "Tumakuru Rural PS",
+          "beat": "HIGHWAY BEAT 2",
+          "leader": "Devendra_Rao",
+          "partner": "Suresh_Nair",
+          "accused_count": 3,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800003",
+          "district": "Belagavi Dist",
+          "unit": "Chikodi PS",
+          "beat": "BORDER BEAT 7",
+          "leader": "Irfan_Pasha",
+          "partner": "Kabir_Khan",
+          "accused_count": 5,
+          "arrested_count": 3
+        },
+        {
+          "fir_id": "FIR-8800004",
+          "district": "Bengaluru Dist",
+          "unit": "Hosakote PS",
+          "beat": "HIGHWAY BEAT 1",
+          "leader": "Anand_Shetty",
+          "partner": "Manjunath_Gowda",
+          "accused_count": 4,
+          "arrested_count": 2
+        },
+        {
+          "fir_id": "FIR-8800005",
+          "district": "Ballari",
+          "unit": "Cowl Bazar PS",
+          "beat": "MINING BEAT 3",
+          "leader": "Sunil_Verma",
+          "partner": "Rajesh_Patel",
+          "accused_count": 3,
+          "arrested_count": 1
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800001",
+          "FIR-8800002"
+        ],
+        [
+          "FIR-8800001",
+          "FIR-8800003"
+        ],
+        [
+          "FIR-8800001",
+          "FIR-8800004"
+        ],
+        [
+          "FIR-8800001",
+          "FIR-8800005"
+        ],
+        [
+          "FIR-8800002",
+          "FIR-8800003"
+        ],
+        [
+          "FIR-8800002",
+          "FIR-8800004"
+        ],
+        [
+          "FIR-8800002",
+          "FIR-8800005"
+        ],
+        [
+          "FIR-8800003",
+          "FIR-8800004"
+        ],
+        [
+          "FIR-8800003",
+          "FIR-8800005"
+        ],
+        [
+          "FIR-8800004",
+          "FIR-8800005"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "PHANTOM_CYBER_HAWALA_NETWORK",
+      "description": "Cross-station banking & cyber OTP phishing syndicate routing through shared crypto/hawala accounts",
+      "crime_group": " CYBER CRIME",
+      "crime_head": "Information Technology Act 2000, 2009",
+      "signature": "[Tag: PH_HAWALA_7788] Synthetic mule SIM cards and instant Telegram USDT laundering",
+      "total_cases": 4,
+      "case_ids": [
+        "FIR-8800006",
+        "FIR-8800007",
+        "FIR-8800008",
+        "FIR-8800009"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800006",
+          "district": "Bengaluru City",
+          "unit": "Cyber Crime PS",
+          "beat": "TECH BEAT NO 1",
+          "leader": "Aakash_Srivastava",
+          "partner": "Rohan_Mehta",
+          "accused_count": 3,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800007",
+          "district": "Bengaluru City",
+          "unit": "Indiranagar PS",
+          "beat": "COMMERCIAL BEAT 3",
+          "leader": "Karan_Singhania",
+          "partner": "Deepak_Joshi",
+          "accused_count": 4,
+          "arrested_count": 2
+        },
+        {
+          "fir_id": "FIR-8800008",
+          "district": "Bengaluru City",
+          "unit": "Whitefield PS",
+          "beat": "ITPL BEAT 5",
+          "leader": "Sameer_Qureshi",
+          "partner": "Tariq_Aziz",
+          "accused_count": 2,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800009",
+          "district": "Mysuru Dist",
+          "unit": "V V Puram PS",
+          "beat": "URBAN BEAT 2",
+          "leader": "Prashant_Deshmukh",
+          "partner": "Alok_Pandey",
+          "accused_count": 3,
+          "arrested_count": 0
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800006",
+          "FIR-8800007"
+        ],
+        [
+          "FIR-8800006",
+          "FIR-8800008"
+        ],
+        [
+          "FIR-8800006",
+          "FIR-8800009"
+        ],
+        [
+          "FIR-8800007",
+          "FIR-8800008"
+        ],
+        [
+          "FIR-8800007",
+          "FIR-8800009"
+        ],
+        [
+          "FIR-8800008",
+          "FIR-8800009"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "GHOST_RIDER_SNATCHING_CELL",
+      "description": "High-speed motorcycle chain snatching duo rotation across residential beats in Bengaluru and Mysuru",
+      "crime_group": "ROBBERY",
+      "crime_head": "Chain Snatching",
+      "signature": "[Vehicle: PULSAR-220-BLACK] Modified black sports bike without rear mirror",
+      "total_cases": 4,
+      "case_ids": [
+        "FIR-8800010",
+        "FIR-8800011",
+        "FIR-8800012",
+        "FIR-8800013"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800010",
+          "district": "Bengaluru City",
+          "unit": "Koramangala PS",
+          "beat": "RURAL BEAT NO 13",
+          "leader": "Suraj_Thakur",
+          "partner": "Manoj_Yadav",
+          "accused_count": 2,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800011",
+          "district": "Bengaluru City",
+          "unit": "Jayanagar PS",
+          "beat": "RESIDENTIAL BEAT 4",
+          "leader": "Kishore_Reddy",
+          "partner": "Dinesh_Kumar",
+          "accused_count": 2,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800012",
+          "district": "Mysuru Dist",
+          "unit": "Nazarbad PS",
+          "beat": "PALACE BEAT 1",
+          "leader": "Arif_Siddiqui",
+          "partner": "Salman_Baig",
+          "accused_count": 2,
+          "arrested_count": 0
+        },
+        {
+          "fir_id": "FIR-8800013",
+          "district": "Bengaluru Dist",
+          "unit": "Nelamangala PS",
+          "beat": "TOWN BEAT 2",
+          "leader": "Naveen_Poojary",
+          "partner": "Girish_Acharya",
+          "accused_count": 2,
+          "arrested_count": 1
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800010",
+          "FIR-8800011"
+        ],
+        [
+          "FIR-8800010",
+          "FIR-8800012"
+        ],
+        [
+          "FIR-8800010",
+          "FIR-8800013"
+        ],
+        [
+          "FIR-8800011",
+          "FIR-8800012"
+        ],
+        [
+          "FIR-8800011",
+          "FIR-8800013"
+        ],
+        [
+          "FIR-8800012",
+          "FIR-8800013"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "NIGHT_VIPER_TEMPLE_BURGLARY",
+      "description": "Night antique idol and jewelry burglary syndicate targeting rural temples across northern Karnataka",
+      "crime_group": "BURGLARY - NIGHT",
+      "crime_head": "Temple Theft",
+      "signature": "[Tool: HYDRAULIC_BOLT_CUTTER] Antique brass and gold deity ornaments targeted",
+      "total_cases": 4,
+      "case_ids": [
+        "FIR-8800014",
+        "FIR-8800015",
+        "FIR-8800016",
+        "FIR-8800017"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800014",
+          "district": "Bagalkot",
+          "unit": "Amengad PS",
+          "beat": "RURAL BEAT NO 6",
+          "leader": "Shivaji_Gounder",
+          "partner": "Dharma_Lingam",
+          "accused_count": 3,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800015",
+          "district": "Ballari",
+          "unit": "Siruguppa PS",
+          "beat": "RIVER BEAT 4",
+          "leader": "Basavaraj_Kattimani",
+          "partner": "Yellappa_Naik",
+          "accused_count": 4,
+          "arrested_count": 2
+        },
+        {
+          "fir_id": "FIR-8800016",
+          "district": "Belagavi Dist",
+          "unit": "Gokak PS",
+          "beat": "FALLS BEAT 2",
+          "leader": "Someshwar_Babu",
+          "partner": "Rangaswamy_M",
+          "accused_count": 3,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800017",
+          "district": "Bagalkot",
+          "unit": "Badami PS",
+          "beat": "CAVE BEAT 1",
+          "leader": "Shankar_Doddamani",
+          "partner": "Mallikarjun_H",
+          "accused_count": 3,
+          "arrested_count": 0
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800014",
+          "FIR-8800015"
+        ],
+        [
+          "FIR-8800014",
+          "FIR-8800016"
+        ],
+        [
+          "FIR-8800014",
+          "FIR-8800017"
+        ],
+        [
+          "FIR-8800015",
+          "FIR-8800016"
+        ],
+        [
+          "FIR-8800015",
+          "FIR-8800017"
+        ],
+        [
+          "FIR-8800016",
+          "FIR-8800017"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "UNDERGROUND_EXTORTION_NETWORK",
+      "description": "Commercial builder and trader extortion syndicate issuing threats across commercial hubs",
+      "crime_group": "EXTORTION",
+      "crime_head": "For Ransom",
+      "signature": "[VoIP: VIRTUAL_NUMBER_ROUTING] International VoIP threat calls demanding crypto protection",
+      "total_cases": 4,
+      "case_ids": [
+        "FIR-8800018",
+        "FIR-8800019",
+        "FIR-8800020",
+        "FIR-8800021"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800018",
+          "district": "Bengaluru City",
+          "unit": "City Market PS",
+          "beat": "MARKET BEAT 1",
+          "leader": "Don_Rajan_Kolar",
+          "partner": "Sharath_Bangalore",
+          "accused_count": 4,
+          "arrested_count": 2
+        },
+        {
+          "fir_id": "FIR-8800019",
+          "district": "Bengaluru City",
+          "unit": "Commercial Street PS",
+          "beat": "BAZAR BEAT 2",
+          "leader": "Javed_Don_Bhatkal",
+          "partner": "Imtiaz_Babu",
+          "accused_count": 3,
+          "arrested_count": 1
+        },
+        {
+          "fir_id": "FIR-8800020",
+          "district": "Tumakuru",
+          "unit": "Tumakuru Town PS",
+          "beat": "TRADER BEAT 3",
+          "leader": "Ganesh_Appa_Hubli",
+          "partner": "Vithal_Marathe",
+          "accused_count": 4,
+          "arrested_count": 2
+        },
+        {
+          "fir_id": "FIR-8800021",
+          "district": "Belagavi Dist",
+          "unit": "Belagavi City PS",
+          "beat": "INDUSTRIAL BEAT 5",
+          "leader": "Ramesh_Anna_Bellary",
+          "partner": "Thimmappa_G",
+          "accused_count": 3,
+          "arrested_count": 0
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800018",
+          "FIR-8800019"
+        ],
+        [
+          "FIR-8800018",
+          "FIR-8800020"
+        ],
+        [
+          "FIR-8800018",
+          "FIR-8800021"
+        ],
+        [
+          "FIR-8800019",
+          "FIR-8800020"
+        ],
+        [
+          "FIR-8800019",
+          "FIR-8800021"
+        ],
+        [
+          "FIR-8800020",
+          "FIR-8800021"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_01",
+      "description": "Localized stealth cell operating across 3 beats in Belagavi Dist",
+      "crime_group": "BURGLARY - NIGHT",
+      "crime_head": "At Residential Premises",
+      "signature": "CELL_TAG_1",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800022",
+        "FIR-8800023",
+        "FIR-8800024"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800022",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800023",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800024",
+          "district": "Belagavi Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800022",
+          "FIR-8800023"
+        ],
+        [
+          "FIR-8800022",
+          "FIR-8800024"
+        ],
+        [
+          "FIR-8800023",
+          "FIR-8800024"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_02",
+      "description": "Localized stealth cell operating across 3 beats in Mysuru Dist",
+      "crime_group": "BURGLARY - NIGHT",
+      "crime_head": "At Residential Premises",
+      "signature": "CELL_TAG_2",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800025",
+        "FIR-8800026",
+        "FIR-8800027"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800025",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800026",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800027",
+          "district": "Mysuru Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800025",
+          "FIR-8800026"
+        ],
+        [
+          "FIR-8800025",
+          "FIR-8800027"
+        ],
+        [
+          "FIR-8800026",
+          "FIR-8800027"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_03",
+      "description": "Localized stealth cell operating across 3 beats in Ballari",
+      "crime_group": "THEFT",
+      "crime_head": "Of Automobiles - Of Two Wheelers",
+      "signature": "CELL_TAG_3",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800028",
+        "FIR-8800029",
+        "FIR-8800030"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800028",
+          "district": "Ballari"
+        },
+        {
+          "fir_id": "FIR-8800029",
+          "district": "Ballari"
+        },
+        {
+          "fir_id": "FIR-8800030",
+          "district": "Ballari"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800028",
+          "FIR-8800029"
+        ],
+        [
+          "FIR-8800028",
+          "FIR-8800030"
+        ],
+        [
+          "FIR-8800029",
+          "FIR-8800030"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_04",
+      "description": "Localized stealth cell operating across 3 beats in Belagavi Dist",
+      "crime_group": "KARNATAKA POLICE ACT 1963",
+      "crime_head": "Gambling - Matka (78 Class C)",
+      "signature": "CELL_TAG_4",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800031",
+        "FIR-8800032",
+        "FIR-8800033"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800031",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800032",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800033",
+          "district": "Belagavi Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800031",
+          "FIR-8800032"
+        ],
+        [
+          "FIR-8800031",
+          "FIR-8800033"
+        ],
+        [
+          "FIR-8800032",
+          "FIR-8800033"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_05",
+      "description": "Localized stealth cell operating across 3 beats in Belagavi Dist",
+      "crime_group": "THEFT",
+      "crime_head": "Of Automobiles - Of Two Wheelers",
+      "signature": "CELL_TAG_5",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800034",
+        "FIR-8800035",
+        "FIR-8800036"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800034",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800035",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800036",
+          "district": "Belagavi Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800034",
+          "FIR-8800035"
+        ],
+        [
+          "FIR-8800034",
+          "FIR-8800036"
+        ],
+        [
+          "FIR-8800035",
+          "FIR-8800036"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_06",
+      "description": "Localized stealth cell operating across 3 beats in Mysuru Dist",
+      "crime_group": "BURGLARY - NIGHT",
+      "crime_head": "At Residential Premises",
+      "signature": "CELL_TAG_6",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800037",
+        "FIR-8800038",
+        "FIR-8800039"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800037",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800038",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800039",
+          "district": "Mysuru Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800037",
+          "FIR-8800038"
+        ],
+        [
+          "FIR-8800037",
+          "FIR-8800039"
+        ],
+        [
+          "FIR-8800038",
+          "FIR-8800039"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_07",
+      "description": "Localized stealth cell operating across 3 beats in Tumakuru",
+      "crime_group": "THEFT",
+      "crime_head": "Of Automobiles - Of Two Wheelers",
+      "signature": "CELL_TAG_7",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800040",
+        "FIR-8800041",
+        "FIR-8800042"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800040",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800041",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800042",
+          "district": "Tumakuru"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800040",
+          "FIR-8800041"
+        ],
+        [
+          "FIR-8800040",
+          "FIR-8800042"
+        ],
+        [
+          "FIR-8800041",
+          "FIR-8800042"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_08",
+      "description": "Localized stealth cell operating across 3 beats in Tumakuru",
+      "crime_group": "KARNATAKA POLICE ACT 1963",
+      "crime_head": "Gambling - Matka (78 Class C)",
+      "signature": "CELL_TAG_8",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800043",
+        "FIR-8800044",
+        "FIR-8800045"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800043",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800044",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800045",
+          "district": "Tumakuru"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800043",
+          "FIR-8800044"
+        ],
+        [
+          "FIR-8800043",
+          "FIR-8800045"
+        ],
+        [
+          "FIR-8800044",
+          "FIR-8800045"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_09",
+      "description": "Localized stealth cell operating across 3 beats in Tumakuru",
+      "crime_group": "CHEATING",
+      "crime_head": "Cheating",
+      "signature": "CELL_TAG_9",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800046",
+        "FIR-8800047",
+        "FIR-8800048"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800046",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800047",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800048",
+          "district": "Tumakuru"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800046",
+          "FIR-8800047"
+        ],
+        [
+          "FIR-8800046",
+          "FIR-8800048"
+        ],
+        [
+          "FIR-8800047",
+          "FIR-8800048"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_10",
+      "description": "Localized stealth cell operating across 3 beats in Bengaluru City",
+      "crime_group": "BURGLARY - NIGHT",
+      "crime_head": "At Residential Premises",
+      "signature": "CELL_TAG_10",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800049",
+        "FIR-8800050",
+        "FIR-8800051"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800049",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800050",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800051",
+          "district": "Bengaluru City"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800049",
+          "FIR-8800050"
+        ],
+        [
+          "FIR-8800049",
+          "FIR-8800051"
+        ],
+        [
+          "FIR-8800050",
+          "FIR-8800051"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_11",
+      "description": "Localized stealth cell operating across 3 beats in Mysuru Dist",
+      "crime_group": "THEFT",
+      "crime_head": "Of Automobiles - Of Two Wheelers",
+      "signature": "CELL_TAG_11",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800052",
+        "FIR-8800053",
+        "FIR-8800054"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800052",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800053",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800054",
+          "district": "Mysuru Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800052",
+          "FIR-8800053"
+        ],
+        [
+          "FIR-8800052",
+          "FIR-8800054"
+        ],
+        [
+          "FIR-8800053",
+          "FIR-8800054"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_12",
+      "description": "Localized stealth cell operating across 3 beats in Tumakuru",
+      "crime_group": "KARNATAKA POLICE ACT 1963",
+      "crime_head": "Gambling - Matka (78 Class C)",
+      "signature": "CELL_TAG_12",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800055",
+        "FIR-8800056",
+        "FIR-8800057"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800055",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800056",
+          "district": "Tumakuru"
+        },
+        {
+          "fir_id": "FIR-8800057",
+          "district": "Tumakuru"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800055",
+          "FIR-8800056"
+        ],
+        [
+          "FIR-8800055",
+          "FIR-8800057"
+        ],
+        [
+          "FIR-8800056",
+          "FIR-8800057"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_13",
+      "description": "Localized stealth cell operating across 3 beats in Bengaluru City",
+      "crime_group": "KARNATAKA POLICE ACT 1963",
+      "crime_head": "Gambling - Matka (78 Class C)",
+      "signature": "CELL_TAG_13",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800058",
+        "FIR-8800059",
+        "FIR-8800060"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800058",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800059",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800060",
+          "district": "Bengaluru City"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800058",
+          "FIR-8800059"
+        ],
+        [
+          "FIR-8800058",
+          "FIR-8800060"
+        ],
+        [
+          "FIR-8800059",
+          "FIR-8800060"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_14",
+      "description": "Localized stealth cell operating across 3 beats in Belagavi Dist",
+      "crime_group": "KARNATAKA POLICE ACT 1963",
+      "crime_head": "Gambling - Matka (78 Class C)",
+      "signature": "CELL_TAG_14",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800061",
+        "FIR-8800062",
+        "FIR-8800063"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800061",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800062",
+          "district": "Belagavi Dist"
+        },
+        {
+          "fir_id": "FIR-8800063",
+          "district": "Belagavi Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800061",
+          "FIR-8800062"
+        ],
+        [
+          "FIR-8800061",
+          "FIR-8800063"
+        ],
+        [
+          "FIR-8800062",
+          "FIR-8800063"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_15",
+      "description": "Localized stealth cell operating across 3 beats in Mysuru Dist",
+      "crime_group": "KARNATAKA POLICE ACT 1963",
+      "crime_head": "Gambling - Matka (78 Class C)",
+      "signature": "CELL_TAG_15",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800064",
+        "FIR-8800065",
+        "FIR-8800066"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800064",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800065",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800066",
+          "district": "Mysuru Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800064",
+          "FIR-8800065"
+        ],
+        [
+          "FIR-8800064",
+          "FIR-8800066"
+        ],
+        [
+          "FIR-8800065",
+          "FIR-8800066"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_16",
+      "description": "Localized stealth cell operating across 3 beats in Mysuru Dist",
+      "crime_group": "CHEATING",
+      "crime_head": "Cheating",
+      "signature": "CELL_TAG_16",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800067",
+        "FIR-8800068",
+        "FIR-8800069"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800067",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800068",
+          "district": "Mysuru Dist"
+        },
+        {
+          "fir_id": "FIR-8800069",
+          "district": "Mysuru Dist"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800067",
+          "FIR-8800068"
+        ],
+        [
+          "FIR-8800067",
+          "FIR-8800069"
+        ],
+        [
+          "FIR-8800068",
+          "FIR-8800069"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_17",
+      "description": "Localized stealth cell operating across 3 beats in Bengaluru City",
+      "crime_group": "THEFT",
+      "crime_head": "Of Automobiles - Of Two Wheelers",
+      "signature": "CELL_TAG_17",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800070",
+        "FIR-8800071",
+        "FIR-8800072"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800070",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800071",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800072",
+          "district": "Bengaluru City"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800070",
+          "FIR-8800071"
+        ],
+        [
+          "FIR-8800070",
+          "FIR-8800072"
+        ],
+        [
+          "FIR-8800071",
+          "FIR-8800072"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_18",
+      "description": "Localized stealth cell operating across 3 beats in Bengaluru City",
+      "crime_group": "CHEATING",
+      "crime_head": "Cheating",
+      "signature": "CELL_TAG_18",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800073",
+        "FIR-8800074",
+        "FIR-8800075"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800073",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800074",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800075",
+          "district": "Bengaluru City"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800073",
+          "FIR-8800074"
+        ],
+        [
+          "FIR-8800073",
+          "FIR-8800075"
+        ],
+        [
+          "FIR-8800074",
+          "FIR-8800075"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_19",
+      "description": "Localized stealth cell operating across 3 beats in Bengaluru City",
+      "crime_group": "BURGLARY - NIGHT",
+      "crime_head": "At Residential Premises",
+      "signature": "CELL_TAG_19",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800076",
+        "FIR-8800077",
+        "FIR-8800078"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800076",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800077",
+          "district": "Bengaluru City"
+        },
+        {
+          "fir_id": "FIR-8800078",
+          "district": "Bengaluru City"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800076",
+          "FIR-8800077"
+        ],
+        [
+          "FIR-8800076",
+          "FIR-8800078"
+        ],
+        [
+          "FIR-8800077",
+          "FIR-8800078"
+        ]
+      ]
+    },
+    {
+      "syndicate_name": "STEALTH_LOCAL_CELL_20",
+      "description": "Localized stealth cell operating across 3 beats in Ballari",
+      "crime_group": "KARNATAKA POLICE ACT 1963",
+      "crime_head": "Gambling - Matka (78 Class C)",
+      "signature": "CELL_TAG_20",
+      "total_cases": 3,
+      "case_ids": [
+        "FIR-8800079",
+        "FIR-8800080",
+        "FIR-8800081"
+      ],
+      "cases_info": [
+        {
+          "fir_id": "FIR-8800079",
+          "district": "Ballari"
+        },
+        {
+          "fir_id": "FIR-8800080",
+          "district": "Ballari"
+        },
+        {
+          "fir_id": "FIR-8800081",
+          "district": "Ballari"
+        }
+      ],
+      "invisible_link_pairs": [
+        [
+          "FIR-8800079",
+          "FIR-8800080"
+        ],
+        [
+          "FIR-8800079",
+          "FIR-8800081"
+        ],
+        [
+          "FIR-8800080",
+          "FIR-8800081"
+        ]
+      ]
+    }
+  ]
+}

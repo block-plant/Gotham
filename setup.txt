@@ -1,5 +1,0 @@
-/opt/anaconda3/bin/python tools/cms.py --rebuild-index
-# paste a whole FIR
-/opt/anaconda3/bin/python tools/cms.py "extortion at Sector-48 by Dakshesh Rajan [ID:P_0ecea8a519c6] phone +91-6430819729-PH_863 BNS 308"
-# or only a number / name / ID
-/opt/anaconda3/bin/python tools/investigate.py "+91-6430819729"
