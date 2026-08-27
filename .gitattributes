@@ -1,0 +1,22 @@
+# ── Line ending normalization ─────────────────────────────────────────────────
+# Store all text files in the repository with LF line endings.
+# Git will convert to CRLF on Windows checkout automatically (no more warnings).
+
+* text=auto eol=lf
+
+# Force specific file types to always use LF
+*.py    text eol=lf
+*.ts    text eol=lf
+*.js    text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.sh    text eol=lf
+
+# Binary files — never touch line endings
+*.bin   binary
+*.pt    binary
+*.index binary
+*.pkl   binary
