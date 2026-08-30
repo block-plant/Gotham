@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gotham Investigator — GNN FIR Analysis</title>
+  <meta name="description" content="AI-powered FIR criminal syndicate investigation tool using Graph Neural Networks." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════ HEADER ═══════ -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-text">
+          <span class="logo-title">GOTHAM INVESTIGATOR SYSTEM</span>
+          <span class="logo-sub">GNN-Powered Criminal Syndicate Analysis Portal</span>
+        </div>
+      </div>
+      <div class="status-pill" id="statusPill">SYSTEM OFFLINE</div>
+    </div>
+  </header>
+
+  <!-- ═══════ MAIN LAYOUT ═══════ -->
+  <main class="layout">
+
+    <!-- LEFT PANEL: FIR Form -->
+    <aside class="panel panel-left">
+      <div class="panel-header">
+        <div>
+          <h2 class="panel-title">FIR DATA ENTRY</h2>
+          <p class="panel-sub">Fill any known fields. All are optional.</p>
+        </div>
+      </div>
+
+      <!-- TABS: Single FIR / Gang Eval -->
+      <div class="tab-bar">
+        <button class="tab active" id="tabQuery" onclick="switchTab('query')">QUERY FIR</button>
+        <button class="tab" id="tabGang" onclick="switchTab('gang')">GANG EVALUATION</button>
+      </div>
+
+      <!-- ── TAB: Query FIR ── -->
+      <form id="queryForm" onsubmit="submitQuery(event)">
+        <div class="form-section">
+          <div class="field-group">
+            <label for="CrimeHead_Name">Crime Head / MO</label>
+            <input id="CrimeHead_Name" name="CrimeHead_Name" type="text" placeholder="e.g. THEFT, MURDER" autocomplete="off" />
+          </div>
+
+          <div class="field-row">
+            <div class="field-group">
+              <label for="Beat_Name">Beat Name</label>
+              <input id="Beat_Name" name="Beat_Name" type="text" placeholder="e.g. AMINAGAD TOWN BEAT NO 1" autocomplete="off" />
+            </div>
+            <div class="field-group">
+              <label for="District_Name">District</label>
+              <input id="District_Name" name="District_Name" type="text" placeholder="e.g. BAGALKOT" autocomplete="off" />
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="ActSection">Act / Section <span class="hint">(comma-separated)</span></label>
+            <input id="ActSection" name="ActSection" type="text" placeholder="e.g. IPC 379, IPC 34" autocomplete="off" />
+          </div>
+
+          <div class="field-row">
+            <div class="field-group">
+              <label for="IOName">IO Name <span class="hint">(Investigating Officer)</span></label>
+              <input id="IOName" name="IOName" type="text" placeholder="e.g. BASAVARAJA" autocomplete="off" />
+            </div>
+            <div class="field-group">
+              <label for="CrimeGroup">Crime Group</label>
+              <input id="CrimeGroup" name="CrimeGroup" type="text" placeholder="e.g. PROPERTY OFFENCES" autocomplete="off" />
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="AccusedName">Accused Name(s) <span class="hint">(comma-separated)</span></label>
+            <input id="AccusedName" name="AccusedName" type="text" placeholder="e.g. Raju Sharma, Suresh Kumar" autocomplete="off" />
+          </div>
+
+          <div class="field-group">
+            <label for="UnitName">Police Station (Unit)</label>
+            <input id="UnitName" name="UnitName" type="text" placeholder="e.g. BAGALKOT TOWN PS" autocomplete="off" />
+          </div>
+
+          <div class="field-row">
+            <div class="field-group">
+              <label for="WeaponUsed">Weapon Used</label>
+              <input id="WeaponUsed" name="WeaponUsed" type="text" placeholder="e.g. KNIFE" autocomplete="off" />
+            </div>
+            <div class="field-group">
+              <label for="VictimName">Victim Name</label>
+              <input id="VictimName" name="VictimName" type="text" placeholder="e.g. Mohan Lal" autocomplete="off" />
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="MO_Description">MO Description <span class="hint">(free text)</span></label>
+            <textarea id="MO_Description" name="MO_Description" rows="2" placeholder="e.g. Picked pockets in crowded market area near railway station"></textarea>
+          </div>
+
+          <div class="field-group">
+            <label for="PlaceOfOccurrence">Place of Occurrence</label>
+            <input id="PlaceOfOccurrence" name="PlaceOfOccurrence" type="text" placeholder="e.g. Near railway station, Platform 2" autocomplete="off" />
+          </div>
+        </div>
+
+        <!-- Threshold + Submit -->
+        <div class="submit-section">
+          <div class="threshold-row">
+            <label for="threshold">Min. Probability Threshold (%)</label>
+            <input id="threshold" type="number" min="0" max="100" value="0" placeholder="0–100" />
+          </div>
+          <button type="submit" class="btn-primary" id="submitBtn">
+            RUN INVESTIGATION
+          </button>
+        </div>
+      </form>
+
+      <!-- ── TAB: Gang Evaluation ── -->
+      <form id="gangForm" onsubmit="submitGang(event)" style="display:none">
+        <div class="form-section">
+          <div class="field-group">
+            <label for="gangFirIds">FIR IDs <span class="hint">(comma-separated, e.g. FIR_629293, FIR_951598)</span></label>
+            <textarea id="gangFirIds" rows="4" placeholder="FIR_629293, FIR_951598, FIR_6235"></textarea>
+          </div>
+          <div class="field-group">
+            <label for="gangThreshold">Min. Probability Threshold (%)</label>
+            <input id="gangThreshold" type="number" min="0" max="100" value="0" placeholder="0–100" />
+          </div>
+        </div>
+        <div class="submit-section">
+          <button type="submit" class="btn-primary" id="gangSubmitBtn">
+            EVALUATE GANG LINKS
+          </button>
+        </div>
+      </form>
+
+    </aside>
+
+    <!-- RIGHT PANEL: Results -->
+    <section class="panel panel-right">
+      <div class="panel-header">
+        <div>
+          <h2 class="panel-title">INVESTIGATION RESULTS</h2>
+          <p class="panel-sub" id="resultsSub">Submit a FIR to see linked criminal records.</p>
+        </div>
+      </div>
+
+      <!-- Entity Match Summary -->
+      <div id="entitySummary" style="display:none" class="entity-summary">
+        <div id="matchedEntities" class="entity-matched"></div>
+        <div id="unmatchedEntities" class="entity-unmatched"></div>
+      </div>
+
+      <!-- Results List -->
+      <div id="resultsList" class="results-list">
+        <div class="empty-state">
+          <p>NO INVESTIGATION RUNNING</p>
+          <p class="empty-hint">Fill the FIR form on the left and click Run Investigation.</p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ═══════ CONFIG MODAL ═══════ -->
+  <div id="configModal" class="modal-overlay" onclick="closeConfig(event)">
+    <div class="modal">
+      <h3>BACKEND CONFIGURATION</h3>
+      <div class="field-group">
+        <label for="configUrl">Backend URL</label>
+        <input id="configUrl" type="text" value="http://localhost:3001" />
+      </div>
+      <div class="field-group">
+        <label for="configKey">API Key (X-API-Key)</label>
+        <input id="configKey" type="text" value="gotham-secret-key-change-in-production" />
+      </div>
+      <br>
+      <button class="btn-primary" onclick="saveConfig()">SAVE &amp; TEST CONNECTION</button>
+    </div>
+  </div>
+
+  <!-- Config button -->
+  <button class="config-btn" onclick="document.getElementById('configModal').style.display='flex'" title="Configure Backend">CONFIG</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
